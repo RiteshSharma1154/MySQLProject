@@ -4,59 +4,84 @@ Functional And Non - Functional Requirement
 
 Functional Requirements:
 
-Transaction:
-The system should support secure and auditable transaction processing.
-Transactions must be recorded accurately and in real-time.
-
-Leaves:
-The system should allow employees to request and manage leaves.
-Leave balances should be updated automatically based on approved requests.
-
-Shareholder:
-The system should maintain a database of shareholders and their holdings.
-Shareholder information should be accessible and updatable.
-
-Salary:
+Payroll:
 The system should facilitate the calculation and disbursement of salaries.
 Salary information should be stored securely and be easily retrievable.
 
-Access Control:
-Access to server rooms and conference rooms should be controlled based on user roles.
-The system should log access attempts and maintain an access history.
+Leaves:
+The system should allow employees to request and manage leaves.
+Leave balances should be updated automatically based on leave approved requests.
 
-Tax:
-The system should calculate and deduct taxes from employee salaries accurately.
-Tax-related information should be stored and reported as required.
-
-Inventory Type:
-The system should categorize and manage different types of inventory.
-Inventory records should include details such as quantity and location.
-
-Holidays:
-The system should maintain a list of official holidays.
-Holiday information should be considered in leave calculations and payroll processing.
-
-Payment Process:
+Salary Process:
 The system should support various payment methods and gateways.
 Payment processing should be secure and comply with relevant regulations.
-
-Hardware and Software:
-The system should track and manage hardware and software assets.
-Information about the status, location, and maintenance of hardware and software should be available.
 
 Deduction:
 The system should handle various types of deductions, such as taxes and insurance.
 Deductions should be accurately reflected in employee pay statements.
 
+Shareholder:
+The system should maintain a database of shareholders and their holdings.
+Shareholder information should be accessible and updatable.
+
+Tax:
+The system should calculate and deduct taxes from employee salaries accurately.
+Tax-related information should be stored and reported as required.
+
+Leaves:
+The system should calculate and deduct leave balances based on approved leaves from employee salaries.
+
 Investments:
 The system should allow employees to manage and track their investments.
 Investment-related data should be secure and easily accessible.
+
+Insurances:
+The system should allow employees to enroll in various insurance policies offered by the company and handle insurance claims processing, allowing employees to submit claims and tracking the status of their claims.
+
+Paycheque_calculation:
+The system should support secure and auditable pay processing for each employee to receive pay for a specific pay period.
+Paycheque information must be recorded accurately and in real-time.
+
+Rate:
+The system should determine the rate at which an employee's salary or wages are calculated. 
+This rate could be an hourly rate, a daily rate, a monthly rate, or any other rate specified by the employer's pay structure.
 
 Bonus:
 The system should calculate and disburse bonuses based on predefined criteria.
 Bonus information should be included in payroll records.
 
+Holidays:
+The system should maintain a list of official holidays.
+Holiday information should be considered in leave calculations and payroll processing.
 
+Inventory Type:
+The system should categorize and manage different types of inventory.
+Inventory records should include details such as quantity and location.
+
+Premisses:
+Access to server rooms and conference rooms should be controlled based on user roles.
+The system should log access attempts and maintain an access history.
+
+Devices:
+The system should track and manage hardware and software assets.
+Information about the status, location, and maintenance of hardware and software should be available.
+
+Employee:
+The system should allow to add, update, view, and delete employee information based onnuser roles.
+Only the select few users should be able to edit employee information while others should only be able to view the information.
+
+
+Department:
+Departments may have multiple department and employees assigned to them.
+Users should be able to create, update, and delete some department records.
+
+Billing Department:
+The system should create accurate invoices based on employee salaries, deductions, bonuses, and any other financial transactions relevant to the employee information.
+It be able to process payments received from clients or customers, ensuring timely and accurate recording of transactions.
+
+IT Department:
+IT department is responsible for the maintenance and upkeep of the system, including software updates, bug fixes, and performance optimization.
+The system needs to implement robust security measures to protect sensitive employee data and financial information stored within the system, including user authentication, encryption, and access control.
 
 Non-Functional Requirements:
 
@@ -95,9 +120,3 @@ Regular updates should be made to accommodate changes in regulations.
 Documentation:
 Comprehensive documentation for the system, including user manuals and technical documentation, should be available.
 Updates to the system should be accompanied by updated documentation.
-
-
-
-
-
-
